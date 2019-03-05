@@ -38,7 +38,6 @@
         }
         .navbar__link {
             margin-bottom: 5px;
-
             &-text__active-left{
                 text-decoration: none;
                 color: $color-primary;
@@ -71,15 +70,13 @@
         } 
         @include respond(phone) {
             margin-right: 0;
-        } 
-        
+        }  
         .navbar__search{
             &__icon{
                 width: 20px;
                 margin-right: .6rem;
             }
         }
-
         .navbar__link{
             font-size: 15px;
             margin-right: .4rem;

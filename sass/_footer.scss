@@ -9,6 +9,7 @@
     border-top: 1px solid rgba(0,0,0,.15);
     border-bottom: 1px solid rgba(0,0,0,.15);
 
+    // SITE LOGO
     &__heading-logo{
         display: inline-flex;
         flex: 0 0 100%;
@@ -52,7 +53,7 @@
 
     }
 
-    // Midle Container
+    // MIDDLE CONTAINER
     &__middle-container{
         height: 340px;
         flex: 0 0 350px;
@@ -92,9 +93,8 @@
             }
         }
     }
-    // Right Container
+    // RIGHT CONTAINER
     &__right-container{
-        
         flex: 0 0 300px;
         @include respond(phone) {
             flex: 0 0 250px;
@@ -113,29 +113,29 @@
         }
     }
 
+    // BOTTOM CONTAINER
     &__legal{
     margin-top: 3rem;
-
-      
-   &__btn{
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    padding: 11px 32px;
-    display: inline-block;
-    text-align: center;
-    border-width: 0;
-    border-radius: 0;
-    border: 3px solid #00afdb;
-    border-radius: 4px;
-    color: rgba(0,0,0,.95);
-    background: #fff;
-    padding-left: 24px;
-    padding-right: 24px;
-    margin-bottom: 36px;
-        }
+    // BUTTON
+            &__btn{
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            padding: 11px 32px;
+            display: inline-block;
+            text-align: center;
+            border-width: 0;
+            border-radius: 0;
+            border: 3px solid #00afdb;
+            border-radius: 4px;
+            color: rgba(0,0,0,.95);
+            background: #fff;
+            padding-left: 24px;
+            padding-right: 24px;
+            margin-bottom: 36px;
+          }
         &__list{
             margin: 0 auto;
             display: flex;
@@ -147,10 +147,10 @@
             width: 70%;
             color: rgba(0, 0, 0, 0.65);
               // MEDIA QUERIES
-        @include respond(phone) {
-            flex-direction: column;
-            width: 90%;
-        } 
+              @include respond(phone) {
+                flex-direction: column;
+                width: 90%;
+               } 
             &__items{
                 display: flex;
                 &__logo{
