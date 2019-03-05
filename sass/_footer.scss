@@ -19,19 +19,14 @@
         &__img{
             width: 170px;
             height: 100%;
-            margin: 0 auto;
             // MEDIA QUERIES
             @include respond(phone) {
-                width: 280px;
-                margin-left: 10rem;
+                margin-left: 12rem;
             } 
             @include respond(small-phone) {
-                margin-left: 0.5rem;
+                margin-left: 3rem;
             } 
-            @include respond(smallest-phone) {
-                width: 220px;
-                margin-left: 0
-            }     
+     
         }
     }
      // LEFT CONTAINER
@@ -120,6 +115,8 @@
 
     &__legal{
     margin-top: 3rem;
+
+      
    &__btn{
     font-size: 14px;
     line-height: 20px;
@@ -149,7 +146,11 @@
             line-height: 16px;
             width: 70%;
             color: rgba(0, 0, 0, 0.65);
-
+              // MEDIA QUERIES
+        @include respond(phone) {
+            flex-direction: column;
+            width: 90%;
+        } 
             &__items{
                 display: flex;
                 &__logo{
@@ -160,7 +161,10 @@
                     display: block;
                     text-align: left;
                     margin-left: 1rem;
-
+                            // MEDIA QUERIES
+                    @include respond(phone) {
+                         margin-top: 1rem;
+                  } 
                 }
             }
         }
