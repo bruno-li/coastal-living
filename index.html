@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>I Always Splurge On Chocolate Chips - These Are The Best | Real Simple</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:400,700" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="img/tab-logo.png">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
 </head>
@@ -19,7 +20,7 @@
                     <a class="navbar__link-text__active-left" href="#"> Explore </a>
                 </li>
                 <li class="navbar__site-logo">
-                    <img class="navbar__site-logo__img" src="img/nav-brand-logo.png"
+                    <img class="navbar__site-logo__img" src="img/nav-logo.jpg"
                         alt="site logo">
                     </li>
             </ul>
@@ -36,15 +37,17 @@
         <!-- TITLE -->
         <header class="title">
             <ul class="title__list-link">
-                <li> <a class="title__list-link__text" href="">Coastal Living</a>
-                    <img class="title__chevron" src="" alt="">
+                <li class="title__list-link__items"> 
+                    <a class="title__list-link__text" href="">Coastal Living</a>
+                    <img class="title__list-link__chevron" src="img/chevron.jpg" alt="link">
                 </li>
-                <li> <a class="title__list-link__text" href="">Food</a></li>
+                <li class="title__list-link__items"> 
+                    <a class="title__list-link__text" href="">Food</a></li>
             </ul>
             <section class="title__header">
                 <h1 class="title__header__heading">The One Baking Ingredient I Always Splurge On</h1>
                 <div class="title__author">
-                        <span>By </span><a href="#" class="title__author__name">Claudia Fisher</a>
+                        <span>By </span><a href="#" class="title__author__name">Kimberly Holland</a>
                     </div>
                 <p class="title__header__paragraph">Each product we feature has been independently selected and reviewed by our editorial team. If you make a purchase using the links included, we may earn commission.</p>
             </section>
@@ -53,9 +56,9 @@
         <!-- MAIN CONTENT -->
         <article class="main-content">
             <!-- HEADING FIGURE -->
-            <figure class="main-content__photo-container">
-                <img class="main-content__photo-container__img" src="img/" alt="heading image">
-                <figcaption>
+            <figure class="main-content__figure">
+                <img class="main-content__figure__img" src="img/header-photo.jpg" alt="heading image">
+                <figcaption class="main-content__figure__caption">
                         JGI/JAMIE GRILL/GETTY IMAGES
                 </figcaption>
             </figure>
@@ -85,7 +88,7 @@
             </p>
 
             <figure class="main-content__figure">
-                    <img class="main-content__figure__img" src="img/" alt="image">
+                    <img class="main-content__figure__img" src="img/video.jpg" alt="image">
             </figure>
 
             <p class="main-content__paragraph">
@@ -167,14 +170,11 @@
     <footer class="footer">
         <!-- HEADING LOGO -->
         <h2 class="footer__heading-logo">
-            <img class="footer__heading-logo__img" src="img/footer-brand-logo.png" alt="footer logo">
+            <img class="footer__heading-logo__img" src="img/footer-logo.jpg" alt="footer logo">
         </h2>
         <!-- LEFT CONTAINER -->
         <div class="footer__left-container">
             <h2 class="footer__heading">Magazines & More</h2>
-            <figure>
-                <img class="footer__left-container__img" src="img/footer-mag.png" alt="magazine ad">
-            </figure>
         </div>
         <!-- MIDDLE CONTAINER -->
         <div class="footer__middle-container">
@@ -195,9 +195,22 @@
             <h2 class="footer__heading">Connect</h2>
             <p class="footer__right-container__paragraph">Follow Us</p>
             <figure>
-                <img class="footer__right-container__social" src="img/footer-social-media.png" alt="social media">
+                <img class="footer__right-container__social" src="img/footer-social-media.jpg" alt="social media">
             </figure>
             <p class="footer__right-container__paragraph">Subscribe to Our Newsletter</p>
+        </div>
+        <div class="footer__legal">
+            <button class="footer__legal__btn">Other Meredith Sites</button>
+            <ul class="footer__legal__list">
+                <li class="footer__legal__list__items">
+                    <img class="footer__legal__list__items__logo" src="img/legal-brand-logo.jpg" alt="">
+                </li>
+                <li class="footer__legal__list__items">
+                    <small class="footer__legal__list__items__text">
+                            Coastal Living is part of the Travel & Leisure Group. © Copyright 2019 Meredith Corporation. Coastal Living is a registered trademark of Meredith Corporation All Rights Reserved. Coastal Living may receive compensation for some links to products  and services on this website. Offers may be subject to change without notice. Privacy policy | Terms of Service | Ad Choices | Your California Privacy Rights | EU Data Subject Requests
+                    </small>
+                </li>
+            </ul>
         </div>
     </footer>
 </body>
