@@ -336,6 +336,7 @@ body {
     .footer__heading-logo__img {
       width: 170px;
       height: 100%;
+      margin: 0 auto;
       /* Custom, iPhone Retina */
       /* Extra Small Devices, Phones */
       /* Small Devices, Tablets */

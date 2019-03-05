@@ -20,6 +20,7 @@
         &__img{
             width: 170px;
             height: 100%;
+            margin: 0 auto;
             // MEDIA QUERIES
             @include respond(phone) {
                 margin-left: 12rem;
